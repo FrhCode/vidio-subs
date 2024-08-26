@@ -1,10 +1,10 @@
 # Create env
 
-> python -m venv venv
+> python -m venv .venv
 
 # Activate env
 
-> source venv/bin/activate
+> ./.venv/Scripts/activate
 
 # Install packages
 
