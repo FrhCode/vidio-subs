@@ -1,15 +1,29 @@
-# Create env
 
-> python -m venv .venv
+# Subtitle Generator Setup and Usage
 
-# Activate env
+## 1. Create a Virtual Environment
+```bash
+python -m venv .venv
+```
 
-> ./.venv/Scripts/activate
+## 2. Activate the Virtual Environment
+- **On Windows**:
+  ```bash
+  .\.venv\Scripts\activate
+  ```
+- **On macOS/Linux**:
+  ```bash
+  source .venv/bin/activate
+  ```
 
-# Install packages
+## 3. Install Required Packages
+```bash
+pip install -r requirements.txt
+```
 
-> pip install -r requirements.txt
-
-# TO RUN THE SUBTITLE GENERATOR PROGRAM
-
-1. place the video into a resource folder
+## 4. Run the Subtitle Generator Program
+1. Place the video into the `resource` folder.
+2. Run the program:
+   ```bash
+   python index.py
+   ```
