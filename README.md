@@ -1,6 +1,8 @@
 
 # Subtitle Generator Setup and Usage
 
+Ensure you are using Python 3.10 for compatibility.
+
 ## 1. Create a Virtual Environment
 ```bash
 python -m venv .venv
