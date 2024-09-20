@@ -2,6 +2,7 @@
 # Subtitle Generator Setup and Usage
 
 Ensure you are using Python 3.10 for compatibility.
+Ensure That ffmpeg is installed on your local machine
 
 ## 1. Create a Virtual Environment
 ```bash
