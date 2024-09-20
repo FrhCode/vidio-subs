@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  python-app:
+    build: .
+    container_name: vidio_subs
+    volumes:
+      - ./resources:/app/resources # Map resource folder to container
+    stdin_open: true
+    tty: true
